@@ -1,4 +1,5 @@
 export const handler = async (event) => {
+    console.log('[Event]: Se capturó un evento en la lambda lb-detail-page');
     const response = {
       headers: { 'Content-Type': 'text/html' },
       statusCode: 200,
